@@ -33,7 +33,7 @@ Implement strict grounding mechanisms to prevent AI hallucinations. All RAG chat
 
 ## Technical Standards and Infrastructure
 
-Documentation framework: Docusaurus for book publishing. Content format: Markdown (.md) files only. Authoring tools: Claude Code + Spec-Kit Plus. Deployment target: GitHub Pages. RAG Chatbot architecture: Retrieval-Augmented Generation with FastAPI backend, OpenAI Agents/ChatKit SDKs, Qdrant Cloud vector database, and Neon Serverless Postgres for metadata storage. Infrastructure must remain free-tier compatible with no hard-coded secrets in repository.
+Documentation framework: Docusaurus for book publishing. Content format: Markdown (.md) files only. Authoring tools: Claude Code + Spec-Kit Plus. Deployment target: GitHub Pages. RAG Chatbot architecture: Retrieval-Augmented Generation with FastAPI backend, OpenAI Agents/ChatKit SDKs, Qdrant Cloud vector database, and Neon Serverless Postgres for metadata storage. Infrastructure must remain free-tier compatible with no hard-coded secrets in repository. Vision-Language-Action (VLA) systems: Integration of speech recognition (OpenAI Whisper), Large Language Models for cognitive planning, and ROS 2 action execution with safety and grounding constraints.
 
 ## Development Workflow and Quality Standards
 
