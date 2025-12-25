@@ -12,14 +12,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://aidd-hackathon-one.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/frontend_book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'frontend_book', // Usually your repo name.
+  organizationName: '', // Usually your GitHub org/user name.
+  projectName: '', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/ai-book-hackathon/tree/main/',
+            'https://github.com/Uzair-Bokra/Physical_AI_Humanoid_Robotics_Book',
         },
         blog: false, // Disable blog if not needed
         theme: {
